@@ -1,16 +1,25 @@
-# React + Vite
+# Style Sharing & Voting App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **Style Sharing and Voting** web application where users can share their outfits and vote on others' styles.  
 
-Currently, two official plugins are available:
+**Note:** The backend is not implemented yet and will be added in a future update. Currently, this project only includes the frontend design and layout.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features (Planned)
 
-## React Compiler
+- Users can upload and share outfit combinations.
+- Voting system for users to like or dislike outfits.
+- User levels or badges based on the number of votes.
+- Responsive design for both desktop and mobile.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- HTML
+- CSS (Tailwind)
+- JavaScript
+- React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Future Plans
+
+- Implement backend with authentication and database.
+- Add real-time voting and user profiles.
+- Deploy full-stack version for public use.
